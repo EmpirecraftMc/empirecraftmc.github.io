@@ -1,10 +1,13 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>EmpireCraft</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
     html {
-      scroll-behavior: smooth; /* smooth scrolling */
+      scroll-behavior: smooth;
     }
 
     body {
@@ -18,7 +21,6 @@
       background: #020617;
       padding: 20px;
       text-align: center;
-      border-bottom: 2px solid #22c55e;
       animation: slideDown 0.8s ease;
     }
 
@@ -102,7 +104,6 @@
       background: #020617;
       padding: 20px;
       border-radius: 10px;
-      border: 1px solid #1e293b;
       transition: 0.3s;
     }
 
@@ -117,13 +118,11 @@
     footer {
       text-align: center;
       padding: 20px;
-      border-top: 1px solid #1e293b;
       margin-top: 40px;
       font-size: 0.9em;
       opacity: 0.7;
     }
 
-    /* Back to top button */
     #topBtn {
       position: fixed;
       bottom: 20px;
@@ -143,7 +142,6 @@
       transform: scale(1.1);
     }
 
-    /* Link styling (green theme) */
     .card a {
       color: #22c55e;
       text-decoration: none;
@@ -155,7 +153,6 @@
       text-decoration: underline;
     }
 
-    /* Animations */
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -165,7 +162,12 @@
       from { transform: translateY(-50px); opacity: 0; }
       to { transform: translateY(0); opacity: 1; }
     }
-  </style></head><body><header>
+  </style>
+</head>
+
+<body>
+
+<header>
   <h1>EmpireCraft</h1>
   <nav>
     <a href="#">Home</a>
@@ -174,11 +176,15 @@
     <a href="#links">Links</a>
     <a href="#join">Join</a>
   </nav>
-</header><section class="hero">
+</header>
+
+<section class="hero">
   <h2>Welcome to Your Server</h2>
   <p>This is EmpireCraft, one of the best realms you will ever play. We have custom skyblock islands, cool pvp modes, dungeons and bosses for explorers and much more!</p>
   <a class="btn" href="#join">Play Now</a>
-</section><section class="section" id="features">
+</section>
+
+<section class="section" id="features">
   <h2>Server Features</h2>
   <div class="card-container">
     <div class="card">
@@ -194,7 +200,9 @@
       <p>Most of the plugins and addons are made by me! ItzCavell!</p>
     </div>
   </div>
-</section><section class="section" id="ranks">
+</section>
+
+<section class="section" id="ranks">
   <h2>Ranks</h2>
   <div class="card-container">
     <div class="card">
@@ -206,7 +214,9 @@
       <p>Wisp6892, BestNinjawill</p>
     </div>
   </div>
-</section><section class="section" id="links">
+</section>
+
+<section class="section" id="links">
   <h2>Links</h2>
   <div class="card-container">
     <div class="card">
@@ -222,18 +232,23 @@
       <p><a href="https://realms.gg/cjvsgtgPV64" target="_blank">https://realms.gg/cjvsgtgPV64</a></p>
     </div>
   </div>
-</section><section class="section" id="join">
+</section>
+
+<section class="section" id="join">
   <h2>Join the Server</h2>
   <p><strong>Realm:</strong> cjvsgtgPV64</p>
   <p><strong>Edition:</strong> Bedrock</p>
   <p><strong>Version:</strong> Latest</p>
   <p><strong>Status:</strong> Online</p>
-</section><footer>
+</section>
+
+<footer>
   <p>© 2026 EmpireCraft. Not affiliated with Mojang.</p>
-</footer><!-- Back to top button --><button id="topBtn" onclick="scrollToTop()">↑ Top</button>
+</footer>
+
+<button id="topBtn" onclick="scrollToTop()">↑ Top</button>
 
 <script>
-  // Show button when scrolling
   window.onscroll = function() {
     const btn = document.getElementById("topBtn");
     if (document.documentElement.scrollTop > 200) {
@@ -247,7 +262,6 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  // Reveal sections on scroll
   const sections = document.querySelectorAll('.section');
 
   const observer = new IntersectionObserver(entries => {
@@ -261,5 +275,7 @@
   sections.forEach(section => {
     observer.observe(section);
   });
-</script></body>
+</script>
+
+</body>
 </html>
