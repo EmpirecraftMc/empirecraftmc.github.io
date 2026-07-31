@@ -145,3 +145,35 @@ p, a {
 .dc p {
     margin-bottom: 5px;
 }
+
+nav button {
+    border-radius: 0%;
+    background: none;
+    width: 35px;
+    border: none;
+    flex-shrink: 0;
+}
+
+@media screen and (width <= 450px) {
+    .small-logo {
+        width: 80px;
+    }
+    .small-logo-container {
+        margin-left: 2vw;
+        margin-right: 0;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    header {
+        justify-content: space-around;
+    }
+    nav a:first-of-type {
+        position: relative;
+        right: 15px;
+        margin-right: 4px;
+    }
+    nav button {
+        width: 30px;
+    }
+}
