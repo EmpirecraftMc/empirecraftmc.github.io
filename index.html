@@ -1,12 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>EmpireCraft</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./images/logo.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Join EmpireCraft! An awesome minecraft bedrock realm!">
+        <meta property="og:title" content="EmpireCraft">
+        <meta property="og:image" content="./images/logo.png">
+        <meta property="og:description" content="An awesome minecraft bedrock realm!">
     </head>
     <body>
-        <h1>Welcome To EmpireCraft</h1>
+        <header>
+            <div class="small-logo-container">
+                <img class="small-logo" src="./images/logo.png" alt="EmpireCraft logo">
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#images">Images</a>
+                <button id="brightness-toggle">
+                    <img src="./images/brightnesstogglelight.svg" alt="Black and white sun">
+                </button>
+            </nav>
+        </header>
+        <main id="main">
+            <section>
+                <div id="about" class="correcter"></div>
+                <h1>Welcome To EmpireCraft</h1>
+                <p>An awesome minecraft bedrock realm!</p>
+                <div class="link-container">
+                    <div class="realm-code">
+                        <p>Join with the realm code now:</p>
+                        <a href="https://realms.gg/cjvsgtgPV64">realms.gg/cjvsgtgPV64</a>
+                    </div>
+                    <div class="dc">
+                        <p>Need help?</p>
+                        <a href="https://discord.gg/8JyFrB3EB2">
+                            <img class="dc-link" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="EmpireCraft Discord">
+                        </a>
+                    </div>
+                </div>
+            </section>   
+            <section id="images">
+                <h2>Images of EmpireCraft</h2>
+                <!-- TODO: Add images -->
+            </section>
+        </main>
+        <script src="./script.js"></script>
     </body>
-    <a href="https://empirecraftmc.github.io/images">
-        <img src="images.png" alt="Images Of EmpireCraft">
-    </a>
 </html>
