@@ -218,3 +218,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+
+footer svg {
+    width: 35px;
+}
