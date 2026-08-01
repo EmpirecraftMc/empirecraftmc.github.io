@@ -219,6 +219,15 @@ footer {
     justify-content: space-evenly;
 }
 
-footer svg {
+footer .icon-links a svg {
     width: 35px;
+}
+
+footer .text-links a svg {
+    width: 15px;
+    display: inline;
+}
+
+footer .text-links a p {
+    display: inline;
 }
