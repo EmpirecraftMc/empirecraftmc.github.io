@@ -10,12 +10,12 @@ brightnessToggle.addEventListener("click", () => {
         body.style.backgroundColor = "whitesmoke";
         body.style.color = "#080808";
         header.style.backgroundColor = "#e2e2e2"
-        toggleImg.setAttribute("src", "/images/brightnesstoggledark.svg");
+        toggleImg.setAttribute("src", "images/brightnesstoggledark.svg");
     } else {
         selectedTheme = "dark"
         body.style.backgroundColor = "#080808";
         body.style.color = "whitesmoke";
         header.style.backgroundColor = "#1d1d1d"
-        toggleImg.setAttribute("src", "/images/brightnesstogglelight.svg");
+        toggleImg.setAttribute("src", "images/brightnesstogglelight.svg");
     }
 })
