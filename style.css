@@ -177,3 +177,16 @@ nav button {
         width: 30px;
     }
 }
+
+.img-grid img {
+    height: 200px;
+}
+
+.img-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
