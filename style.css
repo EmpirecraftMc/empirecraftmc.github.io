@@ -235,3 +235,29 @@ footer .text-links a svg {
 footer .text-links a p {
     display: inline;
 }
+
+/* discord widget */
+
+.discord-widget {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.discord-widget widgetbot {
+    display: block;
+    width: 500px;
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+    .discord-widget {
+        width: 350px;
+        max-width: 100%;
+    }
+
+    .discord-widget widgetbot {
+        width: 350px;
+        height: 200px;
+    }
+}
