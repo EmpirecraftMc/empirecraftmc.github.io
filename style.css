@@ -239,15 +239,15 @@ footer .text-links a p {
 /* discord widget */
 
 .discord-widget {
-    width: 500px;
+    width: 800px;
     max-width: 100%;
     margin: 0 auto;
 }
 
 .discord-widget widgetbot {
     display: block;
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: 600px;
 }
 
 @media (max-width: 600px) {
@@ -258,6 +258,6 @@ footer .text-links a p {
 
     .discord-widget widgetbot {
         width: 350px;
-        height: 200px;
+        height: 300px;
     }
 }
