@@ -216,6 +216,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     flex-shrink: 0;
+    margin-top: 30px;
 }
 
 .text-links, .icon-links {
