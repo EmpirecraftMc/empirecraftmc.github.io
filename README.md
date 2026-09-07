@@ -14,7 +14,7 @@ git clone https://github.com/EmpirecraftMc/empirecraftmc.github.io.git && cd emp
 2. **Run a local server:**  
 - **Using Nginx / Apache:**  
 Move the `empirecraftmc.github.io` folder into your web root directory (e.g., `/var/www/` or `/usr/share/nginx/html/`) and update your server configuration to point to it.
-- **Using Python (Easiest):**  
+- **Using Python**  
 Run `python3 -m http.server 8000` inside the folder and open `http://localhost:8000` in your browser.
 ## ⚖️ License
 Copyright © 2026 EmpireCraft  
