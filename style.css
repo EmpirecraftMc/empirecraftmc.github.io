@@ -1,19 +1,5 @@
 /* CSS reset */
 
-@font-face {
-  font-family: 'MinecraftTen';
-  src: url('fonts/minecraftTen.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'MinecraftFive';
-  src: url('fonts/minecraftFive.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -53,12 +39,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 p {
     text-wrap: pretty;
-    font-family: 'MinecraftFive', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
-    font-family: 'MinecraftTen', sans-serif;
 }
 
 button, a {
@@ -277,29 +261,4 @@ footer .text-links a p {
         width: 350px;
         height: 300px;
     }
-}
-
-/* Really tuff ore ui buttons */
-
-.mc-button {
-  display: inline-block;
-  font-family: 'MinecraftFive', 'Franklin Gothic Medium', sans-serif;
-  font-size: 1.25rem;
-  color: #E0E0E0;
-  text-shadow: 2px 2px 0px #3F3F3F;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px 20px;
-  user-select: none;
-  cursor: pointer;
-  background: none;
-  border-style: solid;
-  border-width: 4px 6px;
-  border-image: url('images/buttons/default.png') 4 6 fill repeat;
-  image-rendering: pixelated;
-}
-
-.mc-button:hover {
-  color: #FFFFA0; 
-  border-image: url('images/buttons/checked_hover.png') 4 6 fill repeat;
 }
