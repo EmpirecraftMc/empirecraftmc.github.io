@@ -289,24 +289,17 @@ footer .text-links a p {
   text-shadow: 2px 2px 0px #3F3F3F;
   text-align: center;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 10px 20px;
   user-select: none;
   cursor: pointer;
-  border: none;
-  background-image: url('images/buttons/default.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background: none;
+  border-style: solid;
+  border-width: 4px 6px;
+  border-image: url('images/buttons/default.png') 4 6 fill repeat;
   image-rendering: pixelated;
 }
 
 .mc-button:hover {
   color: #FFFFA0; 
-  background-image: url('images/buttons/checked_hover.png');
+  border-image: url('images/buttons/checked_hover.png') 4 6 fill repeat;
 }
-
-.mc-button:active {
-  color: #A0A0A0;
-  transform: translateY(2px);
-  text-shadow: 1px 1px 0px #202020;
-}
-
