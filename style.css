@@ -279,6 +279,8 @@ footer .text-links a p {
     }
 }
 
+/* Really tuff ore ui buttons */
+
 .mc-button {
   display: inline-block;
   font-family: 'MinecraftFive', 'Franklin Gothic Medium', sans-serif;
@@ -290,16 +292,16 @@ footer .text-links a p {
   padding: 12px 24px;
   user-select: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 4px;
-  border-image: url('images/buttons/default.png') 4 fill repeat;
+  border: none;
+  background-image: url('images/buttons/default.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   image-rendering: pixelated;
-  background: none;
 }
 
 .mc-button:hover {
   color: #FFFFA0; 
-  border-image: url('images/buttons/checked_hover.png') 4 fill repeat;
+  background-image: url('images/buttons/checked_hover.png');
 }
 
 .mc-button:active {
