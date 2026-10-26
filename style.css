@@ -53,10 +53,12 @@ p, h1, h2, h3, h4, h5, h6 {
 
 p {
     text-wrap: pretty;
+    font-family: 'MinecraftFive', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
+    font-family: 'MinecraftTen', sans-serif;
 }
 
 button, a {
