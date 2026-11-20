@@ -1,7 +1,7 @@
 const brightnessToggle = document.getElementById("brightness-toggle");
 const body = document.querySelector("body");
 const header = document.querySelector("header");
-const toggleImg = document.querySelector("nav button img");
+const toggleImg = document.querySelector("#brightness-toggle img");
 const footer = document.querySelector("footer");
 
 let selectedTheme = "dark";
